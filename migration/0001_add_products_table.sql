@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS products (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  type TEXT NOT NULL,
+  price TEXT NOT NULL,
+  title TEXT NOT NULL,
+  urlImg TEXT NOT NULL,
+  description TEXT NOT NULL,
+  created_at CURRENT_TIMESTAMP
+)
